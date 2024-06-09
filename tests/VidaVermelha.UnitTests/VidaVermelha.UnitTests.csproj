@@ -25,11 +25,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Domain\Entity\Endereco\" />
-    <Folder Include="Domain\Entity\EstoqueSangue\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\..\src\VidaVermelha.Domain\VidaVermelha.Domain.csproj" />
     <ProjectReference Include="..\VidaVermelha.UtilsTests\VidaVermelha.UtilsTests.csproj" />
   </ItemGroup>

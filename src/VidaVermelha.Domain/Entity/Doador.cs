@@ -12,5 +12,5 @@ public class Doador : BaseEntity
     public string? TipoSanguineo { get; set; }
     public string? FatorRh { get; set; }
     public Endereco? Endereco { get; set; }
-    public List<Doacao>? Doacoes { get; set; }
+    public List<Doacao>? Doacoes { get; set; } = new List<Doacao>();
 }

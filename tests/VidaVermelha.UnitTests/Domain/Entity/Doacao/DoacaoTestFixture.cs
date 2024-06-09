@@ -23,4 +23,4 @@ public class DoacaoTestFixture
 }
 
 [CollectionDefinition(nameof(DoacaoTestFixture))]
-public class DoadorTestFixtureColletion : ICollectionFixture<DoacaoTestFixture> { }
+public class DoacaoTestFixtureColletion : ICollectionFixture<DoacaoTestFixture> { }

@@ -8,6 +8,6 @@ public class Endereco : BaseEntity
     public string? Estado { get; set; }
     public string? CEP { get; set; }
 
-    public Guid DoadorId { get; set; }
+    public Guid? DoadorId { get; set; }
     public Doador? Doador { get; set; }
 }
